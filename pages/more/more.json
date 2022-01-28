@@ -1,0 +1,8 @@
+{
+  "pages":[
+    "pages/more/more"
+  ],
+  "windows":{
+    "navigationBarTitleText": "更多"
+  }
+}

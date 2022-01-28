@@ -1,0 +1,49 @@
+<view class="content">
+   <view class="hr"></view>
+   <view class="KeyWords">
+    <view class="title">重点词语:</view>
+    <button class="KeyWordsBtn" type="primary" bindtap="goToKeyWordsBtn" style="width:50%">一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <view class="RealTimeVoice">
+    <view class="title">实时语音：</view>
+    <button class="RealTimeVoiceBtn" type="primary" bindtap="goRealTimeVoiceBtn" style="width:50%">一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">帮助文档：</view>
+    <button class="HelpDocumentationBtn" type="primary" bindtap="goHelpDocumentationBtn" style="width:50%">一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">语义依存图分析</view>
+   <button class="GetSemanticDependencyGraphAnalysis" type="primary" bindtap="GoToSemanticDependencyGraphAnalysis" style="width: 50%; position: relative; left: 20rpx; top: 0rpx">一键获取</button>
+  </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">语义依存树分析</view>
+   <button class="GetSemanticDependencyTreeAnalysis" type="primary" bindtap="GoToSemanticDependencyTreeAnalysis" style="width:50%">一键获取</button>
+  </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">语义角色标注</view>
+   <button class="GetSemanticRoleLabeling" type="primary" bindtap="GoToSemanticRoleLabeling" style="width:50%">一键获取</button>
+  </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">命名实体识别</view>
+   <button class="GetNamedEntityRecognition" type="primary" bindtap="GoToNamedEntityRecognition" style="width:50%">一键获取</button>
+  </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">词性标注</view>
+   <button class="GetPartOfSpeechTagging" type="primary" bindtap="GoToPartOfSpeechTagging" style="width:50%">一键获取</button>
+  </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">中文分词</view>
+   <button class="GetChineseWordSegmentation" type="primary" bindtap="GoToChineseWordSegmentation" style="width:50%">一键获取</button>
+  </view>
+   <view class="hr"></view>
+
+</view>
