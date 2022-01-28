@@ -1,0 +1,9 @@
+<camera
+  class="camera"
+  frame-size="large"
+></camera>
+  <!-- frame-size="large"拍照图片高清 -->
+<button class='record' bindtap='record'>拍摄</button>
+<button class='RecognizeWords' bindtap='getImgInfo' disabled="{{picToTxtState}}">识文字</button>
+
+
