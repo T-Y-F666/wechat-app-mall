@@ -1,0 +1,19 @@
+<view class="yuyinWrap">
+  <textarea class='yuyinCon' placeholder='请输入内容' value='{{content}}' bindinput="conInput"></textarea>
+  <!--  -->
+  <view class=''>
+    <button class="yuyinBtn {{recordState == true ? 'yuyinBtnBg':''}}" bindtouchstart="touchStart" bindtouchend="touchEnd" >
+      <text wx:if="{{recordState == false}} ">按住 开始</text>
+      <text wx:else>松开 结束</text>
+    </button>
+  </view>
+  <!-- 开始语音 弹出语音图标表示正在录音 -->
+  <cover-view class="startYuyinImage" wx:if="{{recordState == true}}">
+    <cover-image src="../resource/image/yuyin-min.png"></cover-image>
+    <cover-view>开始语音</cover-view>
+  </cover-view>
+</view>
+<view>
+  <button class="GetSemanticDependencyGraphAnalysis" type="primary" bindtap="GoToSemanticDependencyGraphAnalysisBtn" >语义依存</button>
+  <button class="GetContentKeywords" type="primary" bindtap="GoToGetContentKeywords" >获取内容关键字</button>
+</view>
