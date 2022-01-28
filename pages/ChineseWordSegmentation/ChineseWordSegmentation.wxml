@@ -1,0 +1,14 @@
+<!--pages/ChineseWordSegmentation/ChineseWordSegmentation.wxml-->
+<!-- <text>pages/ChineseWordSegmentation/ChineseWordSegmentation.wxml</text> -->
+<view class="content">
+   <view class="hr"></view>
+   <!-- <h2 class="h2222">重点词语</h2>
+   <button class="KeyWordsBtn" type="submit" bindtap="goToKeyWordsBtn">一键获取</button> -->
+   <view class="KeyWords">
+    <view class="title">汉语分词分析如下：</view>
+      <view wx:for="{{FormatArrayData}}" wx:for-index="idx" wx:for-item="itemName">
+        {{idx+1}} :{{itemName}} 
+      <view class="hr"></view>
+      </view>
+   </view>
+</view>
