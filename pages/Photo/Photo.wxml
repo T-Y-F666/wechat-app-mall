@@ -1,0 +1,9 @@
+pages/Photo/Photo.wxml
+<!-- <text>pages/Photo/Photo.wxml</text> -->
+<view>
+  <button type="warn" bindtap="picToTxt">请选择图片</button>
+</view>
+<block wx:for="{{words}}" wx:key="unique" >
+  <view style="text-align: center">{{item.words}}</view>
+</block>
+
