@@ -1,0 +1,15 @@
+<!--pages/ChineseEnglishTranslationInputBox/ChineseEnglishTranslationInputBox.wxml-->
+<!-- <text>pages/ChineseEnglishTranslationInputBox/ChineseEnglishTranslationInputBox.wxml</text> -->
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">输入需要解析的内容</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <!-- <input bindinput='getInputValue' class="weui-input" auto-focus placeholder="将会获取焦点"/> -->
+        <input bindinput='getInputValue'/>
+      </view>
+    </view>
+  </view>
+  <button class="SubmissionContent" type="primary" bindtap="GoToSubmissionContent" >提交内容</button>
+</view>
+
