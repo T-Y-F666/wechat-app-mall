@@ -1,0 +1,95 @@
+.meun-city-txt {
+  display: block;
+  border-bottom: 1rpx solid #e9e9e9;
+  width: 100%;
+  padding: 25rpx 0;
+  font-size: 14px;
+}
+
+.meun-city-txt-price {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-text-list-rig {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f9f9f9;
+  z-index: 10;
+  box-sizing: border-box;
+  padding-left: 35rpx;
+}
+.content{
+  margin-top: 30rpx;
+}
+.yuyinCon {
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding: 10rpx 10rpx 70rpx;
+}
+
+page{
+  background: #f3f7f7;
+ }
+ .select_box{
+  background: #fff;
+  width: 80%;
+  margin: 30rpx auto;
+  position: relative;
+ }
+ .select{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+ }
+ .select_text{
+  font-size: 30rpx;
+  flex: 1;
+ }
+ .select_img{
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  transition:transform 0.3s;
+ }
+ .select_img_rotate{
+  transform:rotate(180deg); 
+ }
+ .option_box{
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  border:1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+ }
+ .option{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+ } 
+.CopyImage{
+  height: 50rpx;
+  width: 50rpx;
+  position: fixed;
+  right:  10rpx;
+}
+.hr{
+  border: 2rpx solid #cccccc;
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.3;
+}

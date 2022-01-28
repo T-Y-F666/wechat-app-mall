@@ -1,0 +1,59 @@
+<!-- <text>pages/Upload02/Upload02.wxml</text> -->
+<view>文件类型</view>
+<view class="hr"></view>
+ <view class='select' catchtap='selectTap'>
+  <text class='select_text'>{{selectData[index]}}</text>
+  <image class='select_img {{show&&"select_img_rotate"}}' src='/image/gobottom.png'></image>   
+ </view>
+ <view>选择文件</view>
+ <view class="hr"></view>
+ <button class="SelectTheAppropriateFile" type="primary" style="width:50%" bindtap="GoToSelectTheAppropriateFile" >一键选择</button>
+ <view class="hr"></view>
+ <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;' >
+  <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+ </view>
+<view class="content">
+  <view class="PictureText">
+   <view class="title">图片文本</view>
+   <button class="photo" bindtap="takePhoto" style="width:50%">拍照识文字</button>
+  </view>
+  <view class="hr"></view>
+  <view class="LibraryText">
+   <view class="title">图片文本</view>
+   <button type="primary" bindtap="picToTxt" style="width:50%">图库识文字</button>
+  </view>
+  <view class="hr"></view>
+  <view class="CopyContent">
+   <!-- <view class="title">复制内容</view> -->
+   <button bindtap="CopyContent"><image class="CopyImage" src="https://636c-cloud1-8gg5m3b955bdc7a0-1307943554.tcb.qcloud.la/%E5%A4%8D%E5%88%B6.png" style="width:30% height:30%"></image></button>
+  </view>
+  <view class="hr"></view>
+<block wx:for="{{words}}" wx:key="unique" >
+  <view style="text-align: center">{{item.words}}</view>
+</block>
+</view>
+<view class="content">
+<!-- <view>文件类型</view>
+<view class="hr"></view>
+ <view class='select' catchtap='selectTap'>
+  <text class='select_text'>{{selectData[index]}}</text>
+  <image class='select_img {{show&&"select_img_rotate"}}' src='/image/gobottom.png'></image>   
+ </view>
+ <view>选择文件</view>
+ <view class="hr"></view>
+ <button class="SelectTheAppropriateFile" type="primary" style="width:50%" bindtap="GoToSelectTheAppropriateFile" >一键选择</button>
+ <view class="hr"></view>
+ <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;' >
+  <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+ </view> -->
+ <view class="weui-cells__title">内容文本</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <!-- <input bindinput='getInputValue'/> -->
+        <textarea class='yuyinCon' placeholder='请输入内容' value='{{content}} ' bindinput="getInputValue"></textarea>
+      </view>
+    </view>
+<button class="TextSubmission" type="primary" bindtap="GoToTextSubmission" style="width:50%">提交</button>
+</view>
+
+
