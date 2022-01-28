@@ -1,0 +1,42 @@
+/* pages/MobileNumberQuickRegistration/MobileNumberQuickRegistration.wxss */
+.mobile-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 40 rpx;
+  font-size: 28 rpx;
+  }
+  input {
+  border-bottom: 1px solid #E5E5E5;
+  height: 80 rpx;
+  }
+  
+  .row {
+  display: flex;
+  height: 80 rpx;
+  margin: 20 rpx 0;
+  }
+  
+  .row .mobile {
+  flex: 5;
+  }
+  
+  .row .code-input {
+  flex: 5;
+  }
+  
+  .row .code-btn {
+  flex: 2;
+  font-size: 24 rpx;
+  text-align: center;
+  line-height: 80 rpx;
+  }
+  
+  .row .submit {
+  width: 100%;
+  border-radius: 20 rpx;
+  height: 90 rpx;
+  line-height: 90 rpx;
+  font-size: 35 rpx;
+  }
