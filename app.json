@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/ShowKeyWords/ShowKeyWords",
+    "pages/HelpDocumentation/HelpDocumentation",
+    "pages/PptToTXT/PptToTXT",
+    "pages/WordToTXT/WordToTXT",
+    "pages/login/login",
+    "pages/iphone/iphone",
+    "pages/com/com",
+    "pages/RealTimeVoice/RealTimeVoice",
+    "pages/image/image",
+    "pages/LongSpeechRealTimeConversion/LongSpeechRealTimeConversion",
+    "pages/SemanticDependencyGraphAnalysis/SemanticDependencyGraphAnalysis",
+    "pages/more/more",
+    "pages/my/my",
+    "pages/AccountInformation/AccountInformation",
+    "pages/DependencyTreeAnalysis/DependencyTreeAnalysis",
+    "pages/RealNameAuthentication/RealNameAuthentication",
+    "pages/edit/edit",
+    "pages/index/index",
+    "pages/ChineseEnglishTranslation/ChineseEnglishTranslation",
+    "pages/PrintedCharacterRecognition/PrintedCharacterRecognition",
+    "pages/ChineseEnglishTranslationInputBox/ChineseEnglishTranslationInputBox",
+    "pages/ChineseWordSegmentation/ChineseWordSegmentation",
+    "pages/NamedEntityDimensions/NamedEntityDimensions",
+    "pages/SemanticRoleLabeling/SemanticRoleLabeling",
+    "pages/UploadMode/UploadMode",
+    "pages/PhotoGraph/PhotoGraph",
+    "pages/MobileNumberQuickRegistration/MobileNumberQuickRegistration",
+    "pages/Photo/Photo",
+    "pages/VerificationCode/VerificationCode",
+    "pages/PartOfSpeechTagging/PartOfSpeechTagging",
+    "pages/ShowKeyWordsTwo/ShowKeyWordsTwo",
+    "pages/Upload02/Upload02",
+    "pages/AllFunction/AllFunction",
+    "pages/UpLoad01/Upload01"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.5",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/image/HomePage.png",
+        "iconPath": "pages/image/HomePage.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/image/More.png",
+        "iconPath": "pages/image/More.png",
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      },
+      {
+        "selectedIconPath": "pages/image/User.png",
+        "iconPath": "pages/image/User.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

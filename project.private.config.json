@@ -1,0 +1,90 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/CircleButton/CircleButton",
+          "pathName": "pages/CircleButton/CircleButton",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/UploadMode/UploadMode",
+          "pathName": "pages/UploadMode/UploadMode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/RealNameAuthentication/RealNameAuthentication",
+          "pathName": "pages/RealNameAuthentication/RealNameAuthentication",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Photo/Photo",
+          "pathName": "pages/Photo/Photo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/VerificationCode/VerificationCode",
+          "pathName": "pages/VerificationCode/VerificationCode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/RealTimeVoice/RealTimeVoice",
+          "pathName": "pages/RealTimeVoice/RealTimeVoice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/RealNameAuthentication/RealNameAuthentication",
+          "pathName": "pages/RealNameAuthentication/RealNameAuthentication",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/more/more",
+          "pathName": "pages/more/more",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
