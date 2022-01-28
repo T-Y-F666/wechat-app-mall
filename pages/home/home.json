@@ -1,0 +1,8 @@
+{
+  "pages":[
+    "pages/home/home"
+  ],
+  "windows":{
+    "navigationBarTitleText": "首页"
+  }
+}
