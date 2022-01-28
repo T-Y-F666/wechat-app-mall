@@ -1,0 +1,25 @@
+<!--pages/my/my.wxml-->
+<!-- <text>pages/my/my.wxml</text> -->
+<view class="content">
+  <view class="AccountInformation">
+      <view class="title"></view>
+      <button class="AccountInformationBtn" bindtap="goToAccountInformationBtn" style="width:700rpx">账户信息</button>
+    </view>
+  <view class="hr"></view>
+  <view class="RealNameAuthentication">
+      <view class="title"></view>
+      <button class="RealNameAuthenticationBtn"  bindtap="GoToRealNameAuthenticationBtn" style="width:700rpx">实名认证</button>
+      
+    </view>
+  <view class="hr"></view>
+  <view class="HelpAndFeedback">
+      <view class="title"></view>
+      <button class="HelpAndFeedbackBtn"  bindtap="GoToHelpAndFeedbackBtn" style="width:700rpx">帮助与反馈</button>
+    </view>
+  <view class="hr"></view>
+  <view class="ContactUs">
+      <view class="title"></view>
+      <button class="ContactUsBtn"  bindtap="GoToContactUsBtn" style="width:700rpx">联系我们</button>
+    </view>
+  <view class="hr"></view>
+</view>
