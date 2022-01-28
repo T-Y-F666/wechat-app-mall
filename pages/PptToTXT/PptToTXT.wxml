@@ -1,0 +1,6 @@
+<image src="{{imgList[0]}}" bindtap="preview" data-src="{{imgList[0]}}"></image>
+<image src="{{imgList[1]}}" bindtap="preview" data-src="{{imgList[1]}}"></image>
+<image src="{{imgList[2]}}" bindtap="preview" data-src="{{imgList[2]}}"></image>
+<image src="{{imgList[3]}}" bindtap="preview" data-src="{{imgList[3]}}"></image>
+<image src="{{imgList[4]}}" bindtap="preview" data-src="{{imgList[4]}}"></image>
+<image src="{{imgList[5]}}" bindtap="preview" data-src="{{imgList[5]}}"></image>
