@@ -1,0 +1,25 @@
+<!--pages/ShowKeyWords/ShowKeyWords.wxml-->
+<!-- <text>pages/ShowKeyWords/ShowKeyWords.wxml</text> -->
+<!-- pages/home/home.wxml -->
+<!-- <view class="container">
+    <canvas canvas-id="pieCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+</view> -->
+<view class="content">
+   <view class="hr"></view>
+   <!-- <h2 class="h2222">重点词语</h2>
+   <button class="KeyWordsBtn" type="submit" bindtap="goToKeyWordsBtn">一键获取</button> -->
+   <view class="KeyWords">
+    <view class="title">重点词语如下：</view>
+      <view wx:for="{{ArrayData}}" wx:for-index="idx" wx:for-item="itemName">
+        {{idx+1}} : {{itemName.word}}  {{itemName.final}} 
+        <!-- {{idx+1}} : {{itemName.word}} : {{itemName.score}} -->
+        <!-- {{idx+1}} : {{itemName.words}} -->
+      <view class="hr"></view>
+      </view>
+   </view>
+  <view class="hr"></view>
+  <view class="container">
+    <canvas canvas-id="pieCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+</view>
+  
+</view>
