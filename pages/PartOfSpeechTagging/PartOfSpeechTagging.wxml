@@ -1,0 +1,9 @@
+<!--pages/PartOfSpeechTagging/PartOfSpeechTagging.wxml-->
+<!-- <text>pages/PartOfSpeechTagging/PartOfSpeechTagging.wxml</text> -->
+<view class="KeyWords">
+    <view class="title">词性分析如下：</view>
+      <view wx:for="{{FormatArrayData}}" wx:for-index="idx" wx:for-item="itemName">
+        {{idx+1}}：{{itemName.content}} 
+      <view class="hr"></view>
+      </view>
+   </view>
