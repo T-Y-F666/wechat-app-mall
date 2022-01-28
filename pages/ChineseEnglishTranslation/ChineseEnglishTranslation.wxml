@@ -1,0 +1,15 @@
+<!--pages/ChineseEnglishTranslation/ChineseEnglishTranslation.wxml-->
+<!-- <text>pages/ChineseEnglishTranslation/ChineseEnglishTranslation.wxml</text> -->
+<view class="content">
+   <view class="hr"></view>
+   <view class="KeyWords">
+    <view class="title">语句分析如下：</view>
+      <view wx="{{ArrayData}}">
+        {{ArrayData.from}} : {{ArrayData.trans_result.src}}
+        <view class="hr"></view> 
+        {{ArrayData.to}} : {{ArrayData.trans_result.dst}}
+      <view class="hr"></view>
+      </view>
+   </view>
+
+   </view>
