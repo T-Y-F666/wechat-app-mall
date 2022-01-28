@@ -1,0 +1,80 @@
+<!-- pages/login/login.wxml
+<text>pages/login/login.wxml</text> -->
+<!--pages/login/login.wxml-->
+<!--<text>pages/login/login.wxml</text>-->
+<!-- <view class="content"> -->
+  <!--用户名-->
+  <!-- <view class="username">
+    <view class="title">用户名:</view>
+    <view class="userid">
+      <input type="text" bindinput="usernameInput" placeholder="用户名/邮箱/手机号" placeholder-style="color:#999999"/>
+    </view>
+  </view> -->
+  <!--分割线-->
+  <!-- <view class="hr"></view> -->
+<!--密码-->
+  <!-- <view class="username">
+    <view class="title">密码: </view>
+    <view class="userid">
+      <input type="{{text}}" bindinput="passwordInput" placeholder="请输入密码" placeholder-style="color:#999999"/>
+    </view>
+  </view> -->
+<!--登录按钮-->
+  <!-- <button type="primary" class="loginBtn" disabled="{{loginBtnState}}"
+  bindtap="login"
+  >登录</button> -->
+<!--注册导航-->
+<!-- <view class="register">
+  <view>
+    <navigator open-type="navigate" url="/pages/iphone/iphone">
+      普通用户注册
+    </navigator>
+  </view>
+  <view>
+    <navigator open-type="navigate" url="/pages/com/com">
+      企业用户注册
+    </navigator>
+  </view>  
+</view>
+</view> -->
+<view class="content">
+  <!--用户名-->
+  <view class="username">
+    <view class="title">用户:</view>
+    <view class="userid">
+      <input type="text" bindinput="usernameInput" placeholder="用户名/邮箱/手机号" placeholder-style="color:#999999"/>
+    </view>
+  </view>
+  <!--分割线-->
+  <view class="hr"></view>
+<!--密码-->
+  <view class="username">
+    <view class="title">密码: </view>
+    <view class="userid">
+      <input type="{{show}}" bindinput="passwordInput" placeholder="请输入密码" placeholder-style="color:#999999"/>
+      <image class='showImg' bindtap='showPassword' src="{{isShow ? 'https://636c-cloud1-8gg5m3b955bdc7a0-1307943554.tcb.qcloud.la/240%E6%98%BE%E7%A4%BA%E3%80%81%E5%8F%AF%E8%A7%81.png' : 'https://636c-cloud1-8gg5m3b955bdc7a0-1307943554.tcb.qcloud.la/241%E9%9A%90%E8%97%8F%E3%80%81%E4%B8%8D%E5%8F%AF%E8%A7%81.png'}}"></image>
+    </view>
+  </view>
+<!--登录按钮-->
+  <button type="primary" value='{{password}}' class="loginBtn" disabled="{{loginBtnState}}"
+  bindtap="login"
+  >登录</button>
+<!--注册导航-->
+<view class="register">
+  <view>
+    <navigator open-type="navigate" url="/pages/iphone/iphone">
+      普通用户注册
+    </navigator>
+  </view>
+  <view>
+    <navigator open-type="navigate" url='/pages/MobileNumberQuickRegistration/MobileNumberQuickRegistration'>
+      手机号快速注册
+    </navigator>
+  </view>
+  <view>
+    <navigator open-type="navigate" url="/pages/com/com">
+      企业用户注册
+    </navigator>
+  </view>  
+</view>
+</view>  

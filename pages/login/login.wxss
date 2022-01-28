@@ -1,0 +1,61 @@
+/* pages/login/login.wxss */
+/* pages/login/login.wxss */
+.content{
+  margin-top: 80rpx;
+}
+.username{
+  display:flex;
+  flex-direction:row;
+  padding-left:40rpx;
+  padding-top:40rpx;
+  padding-bottom: 20rpx;
+  width:100%;
+}
+.title{
+  width: 150rpx;
+  font-weight: hold;
+}
+.hr{
+  border: 2rpx solid #cccccc;
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.3;
+}
+.register{
+  display: flex;
+  flex-direction: row;
+}
+.register view{
+  margin: 0 auto;
+  margin-top:80rpx; 
+  font-size:30rpx;
+  color:#333;
+  
+}
+.showImg{
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.userid {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+} 
+
+.userid image {
+  height: 42rpx;
+  width: 42rpx;
+  align-self: center;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+}
+
+.userid input {
+  flex: 1;
+  font-size: 30rpx;
+}
