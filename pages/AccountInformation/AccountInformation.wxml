@@ -1,0 +1,25 @@
+<!--pages/AccountInformation/AccountInformation.wxml-->
+<!-- <text>pages/AccountInformation/AccountInformation.wxml</text>
+ -->
+ <view class="container">
+  <view class="AccountID">
+    <view class="title">账号ID:{{name}}</view>
+   <!-- <button class="GetNamedEntityRecognition" type="primary" bindtap="GoToNamedEntityRecognition" >一键获取</button> -->
+  </view>
+   <view class="hr"></view>
+   <view class="CurrentLogin">
+    <view class="title">当前登录:已登录</view>
+   <!-- <button class="GetNamedEntityRecognition" type="primary" bindtap="GoToNamedEntityRecognition" >一键获取</button> -->
+  </view>
+  <view class="hr"></view>
+  <view class="ThirdPartyAccount">
+    <view class="title">当前登录:已绑定手机</view>
+   <!-- <button class="GetNamedEntityRecognition" type="primary" bindtap="GoToNamedEntityRecognition" >一键获取</button> -->
+  </view>
+  <view class="hr"></view>
+  <view class="AccountCancellation">
+    <view class="title">账号注销  申请注销</view>
+   <!-- <button class="GetNamedEntityRecognition" type="primary" bindtap="GoToNamedEntityRecognition" >一键获取</button> -->
+  </view>
+   <view class="hr"></view>
+</view>

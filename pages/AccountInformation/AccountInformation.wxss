@@ -1,0 +1,17 @@
+/* pages/AccountInformation/AccountInformation.wxss */
+.title{
+  font-weight: hold;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40rpx;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  width: 100%;
+  /* position: fixed; */
+}
+.hr{
+  border: 2rpx solid #cccccc;
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.3;
+}
