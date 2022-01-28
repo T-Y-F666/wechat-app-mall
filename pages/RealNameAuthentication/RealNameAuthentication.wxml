@@ -1,0 +1,59 @@
+<view class="wrap">
+  <view bindtap="showModal">
+    <text>{{value}}</text>
+    <icon class="arrow"></icon>
+  </view>
+ 
+  <!-- modal  -->
+  <view class="modal modal-bottom-dialog" hidden="{{hideFlag}}">
+    <view class="modal-cancel" bindtap="hideModal"></view>
+    <view class="bottom-dialog-body bottom-positon" animation="{{animationData}}">
+      <!--  -->
+      <view class='Mselect'>
+        <view wx:for="{{optionList}}" wx:key="unique" data-value='{{item}}' bindtap='getOption'>
+          {{item}}
+        </view>
+      </view>
+      <view></view>
+      <view class='Mcancel' bindtap='mCancel'>
+        <text>取消</text>
+      </view>
+ 
+    </view>
+  </view>
+ 
+</view>
+<view class="page-section">
+    <view class="weui-cells__title">中文姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="idcard" bindinput="RealNameInput" placeholder="请输入真实姓名" />
+      </view>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="page-section">
+    <view class="weui-cells__title">姓名全拼</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="idcard"  bindinput="RealPinyinNameInput" placeholder="请输入真实姓名拼音" />
+      </view>
+    </view>
+  </view>
+  <view class="hr"></view>
+<view class="page-section">
+    <view class="weui-cells__title">证件号码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="idcard" bindinput="IdentificationNumberInput" placeholder="请输入证件号码" />
+      </view>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="container">
+  <button  class="FrontOfCertificate" style="height:45vw;width:45vw" bindtap='chooseImageTap'>证件正面</button>
+  <button style="height:45vw;width:45vw" class="BackOfCertificate" bindtap='chooseImageTap'>证件背面</button>
+</view>
+<view class="hr"></view>
+<view class="PrivacyStatement">隐私提示:您提交实名信息仅供证书申请等实名认证需要，已做加密处理请放心上传</view>
+<button class="SubmitCertification" bindtap="SubmitCertification" >提交认证</button>

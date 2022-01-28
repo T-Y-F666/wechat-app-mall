@@ -1,0 +1,247 @@
+/* pages/RealNameAuthentication/RealNameAuthentication.wxss */
+/* pages/UploadMode/UploadMode.wxss */
+.menu-po {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  margin-left: 5%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-nav2 image {
+  width: 24rpx;
+  height: 15rpx;
+}
+
+.menu-nav2 text {
+  font-size: 14px;
+}
+
+.menu-nav image {
+  width: 24rpx;
+  height: 15rpx;
+}
+
+.menu-nav text {
+  color: #696969;
+  font-size: 14px;
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  position: absolute;
+  top: 210rpx;
+}
+
+.menu-if {
+  background-color: #fff;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 9;
+  margin-left: -15px;
+  width: 100%;
+}
+
+.swiper-item {
+  background: #fff;
+  width: 100%;
+  height: 600rpx;
+  display: none;
+  position: absolute;
+  top: 100rpx;
+  z-index: 333333;
+  left: 0;
+  animation: displays 1s;
+}
+
+.meun-txt {
+  height: auto;
+  color: #696969;
+}
+
+.menu-text-list {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.menu-text-list-left {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-left: 35rpx;
+}
+
+/* text样式 */
+
+.meun-city-txt {
+  display: block;
+  border-bottom: 1rpx solid #e9e9e9;
+  width: 100%;
+  padding: 25rpx 0;
+  font-size: 14px;
+}
+
+.meun-city-txt-price {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-text-list-rig {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f9f9f9;
+  z-index: 10;
+  box-sizing: border-box;
+  padding-left: 35rpx;
+}
+
+page{
+  background: #f3f7f7;
+ }
+ .select_box{
+  background: #fff;
+  width: 80%;
+  margin: 30rpx auto;
+  position: relative;
+ }
+ .select{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+ }
+ .select_text{
+  font-size: 30rpx;
+  flex: 1;
+ }
+ .select_img{
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  transition:transform 0.3s;
+ }
+ .select_img_rotate{
+  transform:rotate(180deg); 
+ }
+ .option_box{
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  border:1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+ }
+ .option{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+ }
+ .hr{
+  border: 2rpx solid #cccccc;
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.3;
+}
+.arrow{
+  display:inline-block;
+  border:6px solid transparent;
+  border-top-color:#000;
+  margin-left:8px;
+  position:relative;
+  top:6rpx;
+}
+/* ---------------------------- */
+/*模态框*/
+.modal{position:fixed; top:0; right:0; bottom:0; left:0; z-index:1000;}
+.modal-cancel{position:absolute; z-index:2000; top:0; right:0; bottom: 0; left:0; background:rgba(0,0,0,0.3);}
+.bottom-dialog-body{width:100%; position:absolute; z-index:3000; bottom:0; left:0;background:#dfdede;}
+/*动画前初始位置*/
+.bottom-positon{-webkit-transform:translateY(100%);transform:translateY(100%);}
+ 
+ 
+/* 底部弹出框 */
+.bottom-positon{
+  text-align: center;
+}
+.Mselect{
+  margin-bottom: 20rpx;
+}
+.Mselect view{
+  padding: 26rpx 0;
+  background: #fff;
+}
+.Mselect view:not(:last-of-type){
+  border-bottom: 1px solid #dfdede;
+}
+.Mcancel{
+  background: #fff;
+  padding: 26rpx 0;
+}
+.FrontOfCertificate{
+  position: fixed;
+  left: 10px; 
+  /* margin-bottom: 50px; */
+}
+.BackOfCertificate{
+  position: fixed;
+  right: 10px;
+}
+.PrivacyStatement{
+  color:#FF9900 ;
+  
+}
+.container{
+  width: 350rpx;
+  height: 350rpx;
+}
+.SubmitCertification{
+    height: 100rpx;
+    width: 80%;
+    margin-top: 20rpx;
+    background-color: beige;
+    color: white;
+    border-radius: 98rpx;
+}
+.SubmitCertification::after {
+  border-radius: 98rpx;
+}
