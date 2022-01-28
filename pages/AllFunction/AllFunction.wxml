@@ -1,0 +1,37 @@
+<!--pages/AllFunction/AllFunction.wxml-->
+<!-- <text>pages/AllFunction/AllFunction.wxml</text> -->
+<!--pages/ChineseEnglishTranslation/ChineseEnglishTranslation.wxml-->
+<!-- <text>pages/ChineseEnglishTranslation/ChineseEnglishTranslation.wxml</text> -->
+<view class="content01">
+   <view class="hr"></view>
+   <view class="KeyWords">
+    <view class="title">语句翻译如下：</view>
+      <view wx="{{ArrayData}}">
+        {{ArrayData.from}} : {{ArrayData.trans_result.src}}
+        <view class="hr"></view> 
+        {{ArrayData.to}} : {{ArrayData.trans_result.dst}}
+      <view class="hr"></view>
+      </view>
+   </view>
+   <view class="hr"></view>
+   <view class="KeyWords">
+    <view class="title">词性分析如下：</view>
+      <view wx:for="{{AllPartOfSpeechAnalysisArrayData}}" wx:for-index="idx" wx:for-item="itemName">
+        <!-- {{idx+1}} : {{itemName.word}} : {{itemName.final}}  -->
+        {{idx+1}} : {{itemName.content}}
+        <!-- {{idx+1}} : {{itemName.words}} -->
+      <view class="hr"></view>
+      </view>
+   </view>
+   <view class="KeyWords">
+    <view class="title">词性分析如下：</view>
+      <view wx:for="{{AllSemanticRelation}}" wx:for-index="idx" wx:for-item="itemName">
+        <!-- {{idx+1}} : {{itemName.word}} : {{itemName.final}}  -->
+        {{idx+1}} : {{itemName.content}}
+        <!-- {{idx+1}} : {{itemName.words}} -->
+      <view class="hr"></view>
+      </view>
+   </view>
+<!-- </view> -->
+   </view>
+
