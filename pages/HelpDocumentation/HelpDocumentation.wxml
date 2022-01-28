@@ -1,0 +1,34 @@
+<!--pages/HelpDocumentation/HelpDocumentation.wxml-->
+<!-- <text>pages/HelpDocumentation/HelpDocumentation.wxml</text> -->
+<!-- pages/home/home.wxml -->
+<view class="content">
+   <view class="PptToTXT">
+    <view class="title">PPT-->txt：</view>
+    <button class="PptToTXTBtn" type="primary" bindtap="goToPptToTXTBtn" >一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <!-- <h2 class="h2222">重点词语</h2>
+   <button class="KeyWordsBtn" type="submit" bindtap="goToKeyWordsBtn">一键获取</button> -->
+   <view class="PptToWord">
+    <view class="title">Word-->txt：</view>
+    <button class="WordToTXTBtn" type="primary" bindtap="goToWordToTXTBtn" >一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <!-- <h2 class="h2222">知识图谱</h2>
+    <button class="KnowledgeGraphBtn" type="submit" bindtap="goToKnowledgeGraphBtn">一键获取</button> -->
+    <!-- <view class="KnowledgeGraph">
+    <view class="title">知识图谱：</view>
+    <button class="KnowledgeGraphBtn" type="primary" bindtap="goToKnowledgeGraphBtn" >一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <view class="RealTimeVoice">
+    <view class="title">实时语音：</view>
+    <button class="RealTimeVoiceBtn" type="primary" bindtap="goRealTimeVoiceBtn" >一键获取</button>
+   </view>
+   <view class="hr"></view>
+   <view class="HelpDocumentation">
+    <view class="title">帮助文档：</view>
+    <button class="HelpDocumentationBtn" type="primary" bindtap="goHelpDocumentationBtn" >一键获取</button>
+   </view>
+   <view class="hr"></view> -->
+</view>

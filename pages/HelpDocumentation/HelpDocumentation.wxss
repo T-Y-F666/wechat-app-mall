@@ -1,0 +1,28 @@
+/* pages/HelpDocumentation/HelpDocumentation.wxss */
+/* pages/home/home.wxss*/
+/* .h2222{
+  margin-top: 160rpx;
+  width: 400rpx;
+  height: 400rpx;
+  background: rgb(80, 135, 255);
+  text-align: center
+}  */
+.content{
+  margin-top: 50rpx;
+}
+.title{
+  font-weight: hold;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40rpx;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  width: 100%;
+}
+.hr{
+  border: 2rpx solid #cccccc;
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.3;
+}
+
